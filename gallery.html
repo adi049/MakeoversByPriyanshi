@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Makeovers By Priyanshi</title>
+  <meta name="description" content="Portfolio of bridal makeup, party makeup, hair styling and mehendi by Makeovers By Priyanshi." />
+  <link rel="canonical" href="https://www.example.com/gallery.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Gallery | Makeovers By Priyanshi" />
+  <meta property="og:description" content="Portfolio of bridal makeup, party makeup, hair styling and mehendi by Makeovers By Priyanshi." />
+  <meta property="og:image" content="assets/logo/logo.jpg" />
+  <meta property="og:url" content="https://www.example.com/gallery.html" />
+  <meta property="og:site_name" content="Makeovers By Priyanshi" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gallery | Makeovers By Priyanshi" />
+  <meta name="twitter:description" content="Portfolio of bridal makeup, party makeup, hair styling and mehendi by Makeovers By Priyanshi." />
+  <meta name="twitter:image" content="assets/logo/logo.jpg" />
+  <meta name="theme-color" content="#faf6f1" />
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/logo/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="gallery">
+
+  <div id="siteHeader"></div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Portfolio</p>
+        <h1 class="section__title">Makeup Looks &amp; Gallery</h1>
+        <div class="title-divider"><span></span><i>✦</i><span></span></div>
+        <p class="page-hero__sub">Tap any image for a full-screen view.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:clamp(2rem,5vw,3.5rem)">
+      <div class="container">
+        <div class="gallery__filters fade-up" id="galleryFilters" role="tablist" aria-label="Gallery categories">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="bridal">Bridal</button>
+          <button class="chip" data-filter="makeup">Makeup</button>
+          <button class="chip" data-filter="hair">Hair</button>
+          <button class="chip" data-filter="mehendi">Mehendi</button>
+          <button class="chip" data-filter="party">Party</button>
+        </div>
+        <div class="gallery__masonry" id="galleryGrid"><!-- rendered by JS --></div>
+      </div>
+    </section>
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="cta-band fade-up">
+          <p class="eyebrow">Reserve Your Date</p>
+          <h2>Loved What You Saw?</h2>
+          <p>Let's create your own gallery-worthy look.</p>
+          <a href="booking.html" class="btn btn--solid btn--lg">Book Your Appointment</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooter"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
