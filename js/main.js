@@ -277,6 +277,21 @@
       </article>`).join("");
   }
 
+  /* ----- Special packages ----- */
+  const specialPackagesGrid = $("#specialPackagesGrid");
+  if (specialPackagesGrid) {
+    specialPackagesGrid.innerHTML = SPECIAL_PACKAGES.map((s) => `
+      <article class="price-card fade-up">
+        <h3 class="price-card__name">${s.name}</h3>
+        <p class="price-card__price">${s.price}</p>
+        <p class="price-card__desc">${s.desc}</p>
+        <div class="price-card__divider" aria-hidden="true"><span></span><i>✦</i><span></span></div>
+        <p class="price-card__inc-label">Package Includes</p>
+        <ul class="price-card__inc">${s.items.map((i) => `<li><i>✓</i> ${i}</li>`).join("")}</ul>
+        <a href="${bookingLink(s.name)}" class="btn btn--solid price-card__btn">Enquire Now</a>
+      </article>`).join("");
+  }
+
   /* ----- Other artistry (hair / mehendi / skin — no prices) ----- */
   const artistryGrid = $("#artistryGrid");
   if (artistryGrid) {
