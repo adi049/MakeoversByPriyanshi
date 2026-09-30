@@ -692,13 +692,13 @@ input.is-invalid, select.is-invalid { border-color: #c0603f !important; }
    RIGHT-SIDE FLOATING ACTION BUTTONS
    ============================================================ */
 .fab {
-  position: fixed; right: 18px; top: 50%; transform: translateY(-50%);
+  position: fixed; right: 18px; top: 56%; transform: translateY(-50%);
   z-index: 90;
   display: flex; flex-direction: column; gap: 8px;
 }
 .fab__btn {
   position: relative;
-  width: 40px; height: 40px; border-radius: 50%;
+  width: 59px; height: 59px; border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   background: rgba(253, 251, 248, .82);
   backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
@@ -707,7 +707,7 @@ input.is-invalid, select.is-invalid { border-color: #c0603f !important; }
   box-shadow: 0 6px 18px rgba(62, 45, 35, .14);
   transition: transform .25s var(--ease), background .25s, color .25s, box-shadow .25s, border-color .25s;
 }
-.fab__btn svg { width: 17px; height: 17px; }
+.fab__btn svg { width: 24px; height: 24px; }
 .fab__btn:hover, .fab__btn:focus-visible {
   background: linear-gradient(120deg, var(--rose) 0%, var(--rose-deep) 100%);
   color: var(--white); border-color: transparent;
@@ -736,9 +736,9 @@ input.is-invalid, select.is-invalid { border-color: #c0603f !important; }
   }
 }
 @media (max-width: 860px) {
-  .fab { right: 10px; gap: 7px; }
-  .fab__btn { width: 38px; height: 38px; }
-  .fab__btn svg { width: 15px; height: 15px; }
+  .fab { right: 10px; gap: 8px; top: 56%; }
+  .fab__btn { width: 56px; height: 56px; }
+  .fab__btn svg { width: 22px; height: 22px; }
 }
 
 /* ============================================================
