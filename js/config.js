@@ -19,7 +19,6 @@ const SITE = {
   email: "shiwani15202020@gmail.com",
   instagram: "makeoverbypriyanshii", // handle only, e.g. "makeoversbypriyanshi" (no @)
   location: "Based in Delhi, with bookings available across India. Home service is available in Delhi with no extra travel charge; applicable travel charges apply for bookings outside Delhi.",
-  businessHours: "[ADD HOURS]",
 
   // Google Maps embed URL (Google Maps → Share → Embed a map → copy src URL).
   // Leave "" to show an elegant placeholder instead of a wrong location.
@@ -66,7 +65,7 @@ const PRICED_SERVICES = [
   },
   {
     name: "Party Makeup",
-    price: "₹25,000",
+    price: "₹2,500",
     desc: "Effortlessly glamorous looks for cocktails, celebrations and every special evening.",
     includes: INCLUDED_WITH_MAKEUP,
     image: "assets/images/makeup/makeup-01.webp",
