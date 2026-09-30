@@ -160,8 +160,13 @@ const ARTISTRY = [
     group: "Mehendi",
     image: "assets/images/mehendi/mehendi-01.webp",
     alt: "Bridal mehendi design by Makeovers By Priyanshi",
-    items: ["Bridal Mehendi", "Traditional Mehendi", "Contemporary Mehendi"],
-    desc: "Intricate traditional artistry and modern minimal designs, applied with rich, deep-staining henna.",
+    items: ["Bridal Mehendi", "Premium Bridal Mehendi", "Royal Bridal Mehendi"],
+    prices: [
+      { name: "Bridal Mehendi", price: "₹5,100" },
+      { name: "Premium Bridal Mehendi", price: "₹7,100" },
+      { name: "Royal Bridal Mehendi", price: "₹11,000" },
+    ],
+    desc: "Bridal mehendi packages with full-hand mehendi on both hands and half-length mehendi on both legs.",
   },
   {
     group: "Skin & Beauty",
