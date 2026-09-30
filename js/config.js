@@ -18,7 +18,7 @@ const SITE = {
   phoneNumber: "+91 85952 91883",
   email: "shiwani15202020@gmail.com",
   instagram: "makeoverbypriyanshii", // handle only, e.g. "makeoversbypriyanshi" (no @)
-  location: "Home service available across Delhi — no extra travel charge. For bookings outside Delhi, applicable travel charges will be included.",
+  location: "Based in Delhi, with bookings available across India. Home service is available in Delhi with no extra travel charge; applicable travel charges apply for bookings outside Delhi.",
   businessHours: "[ADD HOURS]",
 
   // Google Maps embed URL (Google Maps → Share → Embed a map → copy src URL).
@@ -82,8 +82,68 @@ const PRICED_SERVICES = [
   },
 ];
 
-/* Booking form dropdown — exactly these services */
-const SERVICE_OPTIONS = PRICED_SERVICES.map((s) => s.name);
+
+/* ---------- SPECIAL PACKAGES ---------- */
+const SPECIAL_PACKAGES = [
+  {
+    name: "Bridal Mehendi",
+    price: "₹5,100",
+    desc: "Full-hand mehendi on both hands and half-length mehendi on both legs. No figure work.",
+    items: [
+      "Full hand — both hands",
+      "Half length — both legs",
+      "No figure work",
+      "Pure herbal, handmade mehendi cones from our side",
+      "Goodie bag included",
+    ],
+  },
+  {
+    name: "Premium Bridal Mehendi",
+    price: "₹7,100",
+    desc: "Full-hand mehendi on both hands and half-length mehendi on both legs with elegant figure work.",
+    items: [
+      "Full hand — both hands",
+      "Half length — both legs",
+      "Figure work: bride, groom, peacock, elegant motifs, doli & more",
+      "Pure herbal, handmade mehendi cones from our side",
+      "Goodie bag included",
+    ],
+  },
+  {
+    name: "Royal Bridal Mehendi",
+    price: "₹11,000",
+    desc: "A detailed royal bridal mehendi story with family, baraat and multiple personalised figures.",
+    items: [
+      "Full hand — both hands",
+      "Half length — both legs",
+      "Figure work: bride family, groom family, baraat",
+      "4–5 personalised figures can be included",
+      "Pure herbal, handmade mehendi cones from our side",
+      "Goodie bag included",
+    ],
+  },
+  {
+    name: "Pre-Bridal & Bridal Complete Package",
+    price: "₹30,000",
+    desc: "A complete pre-bridal and wedding-ready package with beauty, mehendi and complimentary makeup services.",
+    items: [
+      "1 O3 Facial",
+      "1 O3 Bleach",
+      "Body Wax (Rica)",
+      "Body Bleach",
+      "Manicure",
+      "Pedicure",
+      "Thread Work",
+      "Mehendi Makeup HD — Complimentary",
+      "Bridal Mehendi with Figure",
+      "Bridal Makeup HD",
+      "1 Party Makeup — Complimentary",
+    ],
+  },
+];
+
+/* Booking form dropdown — services & packages */
+const SERVICE_OPTIONS = [...PRICED_SERVICES, ...SPECIAL_PACKAGES].map((s) => s.name);
 
 const EVENT_TYPES = ["Wedding", "Engagement", "Reception", "Haldi", "Mehendi", "Party / Cocktail", "Festive Occasion", "Other"];
 
