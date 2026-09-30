@@ -106,7 +106,7 @@
           <a href="booking.html">Book Appointment</a>
         </div>
       </div>
-      <div class="footer__bottom"><p>© 2026 Makeovers By Priyanshi. All Rights Reserved.</p></div>
+      <div class="footer__bottom"><p>© 2026 Makeovers By Priyanshi. All Rights Reserved.</p><p class="footer__credit">Website crafted by <strong>Managed By Luna</strong> · <a href="https://wa.me/918076690131" target="_blank" rel="noopener">Call / WhatsApp: 8076690131</a></p></div>
     </footer>
 
     <!-- Right-side floating action buttons -->
