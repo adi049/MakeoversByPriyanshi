@@ -551,7 +551,6 @@
       { icon: "✦", label: "Instagram", value: instaConfigured ? `@${SITE.instagram.replace(/^@/, "")}` : "[ADD INSTAGRAM]", href: instaUrl },
       { icon: "＠", label: "Email", value: SITE.email, href: /ADD/.test(SITE.email) ? null : `mailto:${SITE.email}` },
       { icon: "⚲", label: "Location", value: SITE.location, href: null },
-      { icon: "◷", label: "Business Hours", value: SITE.businessHours, href: null },
     ];
     contactGrid.innerHTML = items.map((c) => `
       <div class="contact-card fade-up">
