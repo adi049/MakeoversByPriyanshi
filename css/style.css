@@ -736,7 +736,7 @@ input.is-invalid, select.is-invalid { border-color: #c0603f !important; }
   }
 }
 @media (max-width: 860px) {
-  .fab { right: 10px; gap: 8px; top: 56%; }
+  .fab { right: 10px; gap: 8px; top: 62%; }
   .fab__btn { width: 56px; height: 56px; }
   .fab__btn svg { width: 22px; height: 22px; }
 }
