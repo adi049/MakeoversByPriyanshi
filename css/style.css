@@ -368,6 +368,29 @@ button { font-family: inherit; cursor: pointer; }
   background: var(--champagne); color: var(--espresso-2);
   padding: .32rem .8rem; border-radius: 999px;
 }
+.service-card__prices {
+  display: grid;
+  gap: .55rem;
+  margin: .15rem 0 1.35rem;
+  padding: .85rem 0;
+  border-top: 1px solid rgba(160, 116, 91, .18);
+  border-bottom: 1px solid rgba(160, 116, 91, .18);
+}
+.service-card__price-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: .78rem;
+  color: var(--espresso-2);
+}
+.service-card__price-row strong {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+}
 .service-card .btn { margin-top: auto; align-self: flex-start; padding: .7rem 1.5rem; font-size: .72rem; }
 
 /* ============================================================
