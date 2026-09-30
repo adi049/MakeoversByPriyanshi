@@ -303,9 +303,11 @@
         </div>
         <div class="service-card__body">
           <p class="service-card__desc">${s.desc}</p>
-          <ul class="service-card__list">${s.items.map((i) => `<li>${i}</li>`).join("")}</ul>
+          ${s.prices
+            ? `<div class="service-card__prices" aria-label="Mehendi prices">${s.prices.map((p) => `<div class="service-card__price-row"><span>${p.name}</span><strong>${p.price}</strong></div>`).join("")}</div>`
+            : `<ul class="service-card__list">${s.items.map((i) => `<li>${i}</li>`).join("")}</ul>`}
           <a href="booking.html" class="btn btn--outline">Enquire Now</a>
-        </div>
+        </div>        </div>
       </article>`).join("");
   }
 
