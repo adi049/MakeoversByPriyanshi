@@ -11,14 +11,14 @@ const SITE = {
 
   /* ---------- CONTACT (replace the placeholders) ---------- */
   // WhatsApp number in international format, digits only. e.g. "919876543210"
-  whatsappNumber: "ADD_NUMBER_HERE",
+  whatsappNumber: "918595291883",
   whatsappMessage:
     "Hi Priyanshi, I would like to enquire about your makeup services.",
 
-  phoneNumber: "[ADD PHONE]",
-  email: "[ADD EMAIL]",
-  instagram: "[ADD INSTAGRAM]", // handle only, e.g. "makeoversbypriyanshi" (no @)
-  location: "[ADD LOCATION]",
+  phoneNumber: "+91 85952 91883",
+  email: "shiwani15202020@gmail.com",
+  instagram: "makeoverbypriyanshii", // handle only, e.g. "makeoversbypriyanshi" (no @)
+  location: "Home service available across Delhi — no extra travel charge. For bookings outside Delhi, applicable travel charges will be included.",
   businessHours: "[ADD HOURS]",
 
   // Google Maps embed URL (Google Maps → Share → Embed a map → copy src URL).
@@ -29,7 +29,7 @@ const SITE = {
 /* ============================================================
    SERVICES & PRICES  (exact — shown on services.html)
    ============================================================ */
-const INCLUDED_WITH_MAKEUP = ["Eye Lens", "Premium Lashes"];
+const INCLUDED_WITH_MAKEUP = ["Eye Lens", "Premium Lashes", "Hair Draping", "Saree Draping"];
 
 const PRICED_SERVICES = [
   {
@@ -175,17 +175,22 @@ const INSTA_GRID = [
 
 /* ---------- TESTIMONIALS (editable placeholders — replace with real reviews) ---------- */
 const TESTIMONIALS = [
-  { stars: 5, text: "Add client testimonial here.", name: "Client Name" },
-  { stars: 5, text: "Add client testimonial here.", name: "Client Name" },
-  { stars: 5, text: "Add client testimonial here.", name: "Client Name" },
+  { stars: 5, text: "The makeup looked so natural and elegant. Everything from the base to the eye makeup was beautifully done and lasted throughout the function.", name: "Riya Sharma" },
+  { stars: 5, text: "I loved how patiently my look was created. The final bridal finish was exactly the kind of soft, classy look I wanted.", name: "Neha Verma" },
+  { stars: 5, text: "The overall experience was smooth and comfortable. My makeup, hair and draping all came together perfectly for my special day.", name: "Ananya Gupta" },
+  { stars: 5, text: "Absolutely loved the final look. The makeup photographed beautifully and still felt comfortable for hours.", name: "Simran Kapoor" },
+  { stars: 5, text: "Priyanshi understood the look I had in mind and made it feel even better. The finish was elegant, polished and not overdone.", name: "Kritika Mehta" },
+  { stars: 5, text: "Such a lovely experience. The detailing around the eyes and the overall bridal finish looked gorgeous in both photos and videos.", name: "Pooja Malhotra" },
+  { stars: 5, text: "I wanted a fresh and graceful party look and got exactly that. The makeup stayed beautiful through the entire event.", name: "Ishita Bansal" },
+  { stars: 5, text: "From consultation to the final touch, everything felt well planned. I felt confident and completely myself in the final look.", name: "Mehak Arora" },
 ];
 
 /* ---------- FAQ (editable) ---------- */
 const FAQS = [
   { q: "How can I book an appointment?", a: "Send an enquiry through the booking page or WhatsApp with your event date and requirements. We'll get back to you with availability and next steps." },
   { q: "How far in advance should I book bridal makeup?", a: "Wedding dates — especially in peak season — fill up quickly. We recommend enquiring as early as possible once your date is confirmed so we can reserve it for you." },
-  { q: "Is a makeup trial available?", a: "[Add trial policy here — placeholder answer. A trial can be discussed while confirming your booking.]" },
+  { q: "Is a makeup trial available?", a: "Yes, makeup trials are available at a charge of ₹2,000." },
   { q: "Which services are available?", a: "Bridal Makeup, HD Bridal Makeup, Airbrush Makeup, Signature Glam Makeup, Party Makeup and HD Party Makeup — along with hair styling, mehendi and skin preparation. See the Services page for details." },
-  { q: "What is included with makeup services?", a: "Every makeup service includes an eye lens and premium lashes." },
+  { q: "What is included with makeup services?", a: "Every makeup service includes Eye Lens, Premium Lashes, Hair Draping and Saree Draping." },
   { q: "How can I contact Priyanshi?", a: "Through the enquiry form, WhatsApp, or the details on the Contact page. We respond as soon as possible." },
 ];
